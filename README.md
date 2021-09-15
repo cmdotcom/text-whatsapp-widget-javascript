@@ -7,7 +7,7 @@ Create and customize your own WhatsApp "Click to Chat" widget for use on your we
 
 ![alt text](./chat_widget.jpg "Screenshot of the CM WhatsApp Widget")
 
-# Installation
+# Installation Option 1
 To get started, add the following script between your `<body>` tags, preferably on the bottom of your page. Make sure to replace `!!REPLACE_ME!!` with the actual URL of your `cm_wa_chat_widget.js`.
 
 ```html
@@ -27,6 +27,9 @@ To get started, add the following script between your `<body>` tags, preferably 
         x.parentNode.insertBefore(s, x);
     </script>
 ```
+
+# Installation Option 2
+Add the contents of ZIP (excluding README, LICENSE etc) to your existing assets folder of your app, and initialize the widget with `cm_whatsapp_chat.createWidget(options);`. See Configuration for the Options interface.
 
 # Configuration
 Without any configuration, the widget doesn't know which phone number you want to send a message to. Let's configure the widget. Make sure to add your options as a valid JSON object to the `var options` part of the initialization script (the one above this paragraph).
