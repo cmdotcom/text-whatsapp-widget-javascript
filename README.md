@@ -1,6 +1,6 @@
 # CM WhatsApp Chat Widget
 
-> **Important Notice**: This package is hosted on GitHub **temporarily** and will be deleted **before January 1st 2022**. Make sure to download the repository and host the scripts and assets yourself.
+> **Important Notice**: This package is hosted on GitHub **temporarily** and will be deleted **before April 1st 2022**. Make sure to download the repository and host the scripts and assets yourself.
 
 
 Create and customize your own WhatsApp "Click to Chat" widget for use on your website. Customers can click on the button and start a conversation on WhatsApp with your preconfigured number.
